@@ -1,0 +1,40 @@
+*		{margin:0;	padding:0;}
+header	{background: rgb(255, 255, 255); padding: 0.8px; opacity: 0.7;	height:100px; text-align: center; color: rgb(250, 35, 35);
+	font-family: NSimSun; font-size: 15px; font-style: italic;}  
+header:hover {background: rgb(235, 212, 212); transition-property: background; transition-duration: 2s;}
+nav		{background:rgb(255, 255, 255);}
+main		{clear:both;}
+article	{background:rgb(167, 247, 121);margin-left:200px;	min-height:400px; font-family: sans-serif;}
+body {background: url(https://img4.goodfon.ru/original/1366x768/1/8d/rozy-butony-tsvety-rozovyi-dereviannyi-fon.jpg)  no-repeat}
+article {background: rgb(255, 255, 255); padding: 0.8px; opacity: 0.7; text-align: center; line-height: 0.8cm;} 
+aside	{background:rgb(235, 226, 236);width:200px;min-height:400px;float:left; text-align: center; font-style: italic; opacity: 0.7; line-height: 1.5cm;}
+footer	{background:rgb(188, 129, 194); opacity: 0.7;height:70px; text-align: inherit;}
+
+h1 {color: rgb(76, 2, 99); font-family: NSimSun; font-size: 60px; font-style: italic;}
+h3 {}
+
+
+
+ul		{display: block;   margin: 0;   padding: 0;   list-style: none; font-size: 0;}
+ul {background: rgb(167, 151, 167); padding: 0.8px; opacity: 0.7;text-decoration: line-through;	 text-align: center; color: rgb(0, 0, 0);
+	font-family: Arial; font-size: 25px; font-style: italic;}
+ul.menu > li { text-decoration: line-through;}
+ul.menu > li 	{ display:inline-block;  font-size:16px;  }
+ul.menu > li > a 	{display: block;   padding: 10px;   color: rgb(3, 3, 3);  	
+					background-color: rgb(182, 149, 184);  text-decoration: none; transition-property: background; transition-duration: 2s; }
+ul.menu > li > a:hover {background-color: rgb(255, 255, 255);}
+div.wrapper > header > a:hover {background-color: black;}
+
+
+/*Задания:
+1. Поменять цвет меню.
+2. Поменять подчеркивание ссылки - сделать "зачеркивание"
+3. Заменить цвет, фона верхнего меню при наведении на синий.
+4. Сделать изменение фона при наведение на пункты меню (выпадающих элементов).
+
+*/
+
+.wrapper{
+	width:900px;
+	margin: 0 auto;
+}
